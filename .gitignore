@@ -1,0 +1,15 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / Colab junk
+.ipynb_checkpoints/
+
+# OS hidden files (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Virtual environments (if you use them later)
+venv/
+env/
