@@ -106,6 +106,6 @@ class MultipleLinearRegressionModel:
             self.b = self.b - alpha * dj_db
             cost = self.calculate_cost(self.w, self.b)
 
-        # gradient descent now completed
+        # end of gradient descent
 
 # end of class MultipleLinearRegressionModel

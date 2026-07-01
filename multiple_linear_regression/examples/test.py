@@ -27,10 +27,10 @@ if __name__ == "__main__":
     # starting timer
     initial_time = perf_counter()
 
-    model1.maxScale_X()
+    # model1.maxScale_X()
     # model1.minMaxScaling()
     # model1.meanNormalization()
-    # model1.ZScoreNormalization()
+    model1.ZScoreNormalization()
 
     # Measuring time and verifying correct answer using sklearn
     
